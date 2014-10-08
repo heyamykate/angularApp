@@ -1,0 +1,39 @@
+<!doctype html>
+<html ng-app="myApp">
+    <head>
+        <title>Angular App Day#1</title>
+        
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+        <link href='http://fonts.googleapis.com/css?family=Lato|Lobster+Two' rel='stylesheet' type='text/css'>
+        <link rel="stylesheet" href="style.css">
+
+    </head>
+    
+    <body ng-controller="MainCtrl" >
+        
+        <div class="container center-block">
+            
+            <h1>Angular is Magic!</h1>
+            
+            <div class="jumbotron main center-block">
+                <input ng-model="magic" type="text" placeholder="Type something here!"/>
+                
+                <h2>{{ magic }}</h2>
+                
+                <p> {{ test }} </p>
+            </div>
+            
+            <div class="jumbotron" id="misc">
+                <ul>
+                    <li>The input box is attached to 'ng-model'</li>
+                    <li>The text below the input is attached to 'ng-model' too. This is called 'data-binding' because their values are linked together.</li>
+                    <li>So, whatever you type in the input, will be reflected in the text below, because they are 'data bound'</li>
+                </ul>
+            </div>
+        </div>
+    
+        <script src="//ajax.googleapis.com/ajax/libs/angularjs/1.2.26/angular.min.js"></script>
+        <script src="app.js"></script>
+    </body>
+    
+</html>

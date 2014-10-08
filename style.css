@@ -1,0 +1,35 @@
+html, body {
+    background-color: #666;
+}
+
+h1 {
+    font-family: 'Lobster Two', cursive;
+    color: #fff;
+    text-align: center;
+    margin-top: 80px;
+}
+
+.jumbotron {
+    text-align: center;
+    background-color: #93E2D5;
+    margin-top: 100px;
+    width: 70%;
+}
+
+#misc {
+    text-align: center;
+    background-color: #93E2D5;
+    width: 70%;
+    font-family: 'Lato', sans-serif;
+    margin: 0 auto;
+}
+
+.jumbotron > h2 {
+    font-family: 'Lobster Two', cursive;
+    color: #fff;
+}
+
+input {
+    text-align: center;
+    font-family: 'Lato', sans-serif;
+}
