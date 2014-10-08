@@ -30,6 +30,13 @@
                     <li>So, whatever you type in the input, will be reflected in the text below, because they are 'data bound'</li>
                 </ul>
             </div>
+            
+            <div class="jumbotron" id="friends">
+                <h3>Fun with ng-repeat</h3><br>
+                <ul ng-repeat="friend in friends">
+                    <li>{{ friend.name }}, {{ friend.occupation }}</li>
+                </ul>
+            </div>
         </div>
     
         <script src="//ajax.googleapis.com/ajax/libs/angularjs/1.2.26/angular.min.js"></script>
